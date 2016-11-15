@@ -1,0 +1,55 @@
+body
+{
+ margin:0;padding:0;
+ text-align:center;
+}
+#service_message_desc
+{
+ color:rgb(0,80,0);
+}
+#mobile_button_menu
+{
+ margin:1%;
+ padding:0.1%;
+ font-size:100%;
+}
+#mobile_h1_title
+{
+ display:block;
+}
+#mobile_input_search
+{
+ font-size:120%;
+ width:90%;
+}
+#mobile_button_search
+{
+ margin:1%;
+ font-size:130%;
+}
+#mobile_select_category,#mobile_select_region,#mobile_select_city
+{
+ display:block;
+ font-size:100%;
+ width:90%;
+ margin:1%;
+}
+#mobile_main_menu
+{
+ font-size:150%;
+ text-align:left;
+ margin:0;padding:0;
+ width:90%;
+}
+#mobile_main_menu li
+{
+ cursor:pointer;
+ margin:1%;
+ padding:1%;
+ color:black;
+}
+#mobile_main_menu li:hover
+{
+ background:yellow;
+ text-decoration:underline;
+}

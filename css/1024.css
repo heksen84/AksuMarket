@@ -1,0 +1,88 @@
+@media screen and (max-width: 1024px){
+#auth_window,#reg_window,#restore_window
+{
+ font-size:100%;
+ width:32%;
+}
+#button_forum
+{
+ float:right;
+ width:9%;
+ border-radius:5px;
+ background:rgb(100,200,100);
+ color:white;
+ font-size:90%;
+ padding:0.3%;
+}
+#logo_block
+{
+ position:absolute;
+ left:0.3%;
+ border: 1px solid white;
+ padding:0.4%;
+ display:inline-block;
+ color:white;
+ text-align:center;
+ word-wrap: break-word;
+ width:16%;
+ height:12%;
+}
+#logo_block:hover
+{
+ background: rgb(120,120,220);
+}
+#logo_block h1
+{
+ font-size:220%;
+ margin:0.3;
+ padding:0;
+}
+#service_logo_text
+{
+ font-size:130%;
+ word-wrap: break-word;
+}
+#service_description_text
+{
+ position:absolute;
+ top:70%;
+ left:5%;
+ font-size:120%;
+ color:rgb(255,255,200);
+ width: 88%;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ font-size:160%;
+}
+#search_block
+{
+ position:absolute;
+ left:18%;
+ border: 2px solid grey;
+ width:61.5%;
+ height:12%;
+ border-radius: 10px;
+ background: rgb(100,200,100);
+ padding:0.5%;
+ border:1px solid rgb(100,100,200);
+ display:inline-block;
+}
+#cat_select
+{
+ margin:0.5%;
+ font-size:100%;
+}
+#target_select_block
+{
+ font-size:85%;
+ margin:2%;
+}
+#target_select_block select
+{
+ font-size:85%;
+}
+#my_adverts_table
+{
+ font-size:95%;
+}
+}

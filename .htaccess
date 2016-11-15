@@ -1,0 +1,16 @@
+# кодировка по умолчанию
+AddDefaultCharset UTF-8
+# 404
+ErrorDocument 404 /404.php
+# редиректы
+Redirect 301 /catalog/transport/ 	http://aksumarket.kz/?cat=1
+Redirect 301 /catalog/nedvizhimost/ 	http://aksumarket.kz/?cat=2
+Redirect 301 /catalog/technics/ 	http://aksumarket.kz/?cat=3
+Redirect 301 /catalog/business/ 	http://aksumarket.kz/?cat=4
+Redirect 301 /catalog/homedacha/ 	http://aksumarket.kz/?cat=5
+Redirect 301 /catalog/veshi/ 		http://aksumarket.kz/?cat=6
+Redirect 301 /catalog/animal/ 		http://aksumarket.kz/?cat=7
+Redirect 301 /catalog/hobbi/ 		http://aksumarket.kz/?cat=8
+Redirect 301 /catalog/services/ 	http://aksumarket.kz/?cat=9
+Redirect 301 /catalog/others/ 		http://aksumarket.kz/?cat=10
+Redirect 301 /catalog/test/ 		http://aksumarket.kz/?cat=test
